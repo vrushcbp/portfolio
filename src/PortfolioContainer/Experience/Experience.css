@@ -1,0 +1,20 @@
+.experience{
+    margin: 3rem 0 0 0;
+    /* background-color: aliceblue; */
+}
+.date-class{
+    color: black;
+    font: bolder;
+}
+.vertical-timeline-element{
+    margin: 0;
+}
+
+@media screen and (max-width: 375px) {
+.date-class{
+    align-items: center;
+}
+.vertical-timeline-element-date{
+    opacity: 1;
+}
+}
